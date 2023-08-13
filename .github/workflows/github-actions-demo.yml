@@ -21,6 +21,6 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: echo "🍏 This jobs.1.result is ${{ jobs.1.result }}."
-      - run: echo "🍏 This jobs.1.outputs is ${{ jobs.1.outputs }}."
-      - run: echo "🍏 This jobs is ${{ jobs }}."
+      #- run: echo "🍏 This jobs.1.result is ${{ jobs.1.result }}."
+      #- run: echo "🍏 This jobs.1.outputs is ${{ jobs.1.outputs }}."
+      #- run: echo "🍏 This jobs is ${{ jobs }}."
