@@ -16,7 +16,9 @@ jobs:
       pull-requests: write
     uses: codeclubbentleigh/hello-action/.github/workflows/workflow-B.yml@feature
     with:
-      name: development
+      name: ${{"development"}}
       config-path: .github/labeler.yml
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
+   
+      
