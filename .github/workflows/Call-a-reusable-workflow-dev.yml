@@ -17,5 +17,6 @@ jobs:
     uses: codeclubbentleigh/hello-action/.github/workflows/workflow-B.yml@dev
     with:
       name: development
+      config-path: .github/labeler.yml
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
