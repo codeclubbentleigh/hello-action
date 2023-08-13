@@ -18,3 +18,5 @@ jobs:
       with:
         repo-token: ${{ secrets.token }}
         configuration-path: ${{ inputs.config-path }}
+    - name: Send greeting
+      run: echo "Hello ${{ inputs.name }}"
